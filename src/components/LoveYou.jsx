@@ -1,7 +1,7 @@
 import { Finger, FingerCurl, FingerDirection, GestureDescription } from "fingerpose"
 
 // Define gesture description
-export const loveYouGesture = new GestureDescription('love')
+export const loveYouGesture = new GestureDescription('Merry Chirstmas')
 
 // Thumb
 loveYouGesture.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0)

@@ -11,18 +11,19 @@ import * as handpose from '@tensorflow-models/handpose';
 import Webcam from 'react-webcam';
 import './App.css';
 import { drawHand } from './utilities';
-import { loveYouGesture } from './components/LoveYou';
-import { Zero, One } from './components';
+// import { loveYouGesture } from './components/LoveYou';
+import { LetterA, LetterB, loveYouGesture } from './components';
 
 ///////// NEW STUFF IMPORTS
 import * as fp from 'fingerpose';
+import { Hate } from './components/Hate';
 ///////// NEW STUFF IMPORTS
 
 function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
 
-  const alphabet = [Zero]
+  const alphabet = [LetterA, LetterB, loveYouGesture, Hate]
   ///////// NEW STUFF ADDED STATE HOOK
   const [wish, setWish] = useState(null);
   // const [emoji, setEmoji] = useState(null);

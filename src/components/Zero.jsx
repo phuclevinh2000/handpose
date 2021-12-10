@@ -4,7 +4,7 @@ import { Finger, FingerCurl, FingerDirection, GestureDescription } from "fingerp
 export const Zero = new GestureDescription('Hello, ')
 
 // Thumb
-Zero.addCurl(Finger.Thumb, FingerCurl.FullCurl, 0.8)
+Zero.addCurl(Finger.Thumb, FingerCurl.FullCurl, 1)
 Zero.addDirection(Finger.Thumb, FingerDirection.HorizontalLeft, 0.25);
 Zero.addDirection(Finger.Thumb, FingerDirection.HorizontalRight, 0.25);
 
